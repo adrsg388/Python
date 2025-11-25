@@ -18,4 +18,5 @@ while Time<=0:
         print("Time can't be zero:")
 
 amount=Principal*((1+Rate/100))**Time
-print(f"The Balance amount for {Time} year's is ${amount}")
+
+print(f"The Balance amount for {Time} year's is Rs{amount}")
